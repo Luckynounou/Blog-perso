@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveling Moments</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="shareYours.css" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">TRAVELING MOMENTS</div>
+            <ul class="menu">
+                <li><a href="#BLOG">Blog</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#Contact us">contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>New Post </h1>
+
+        <div class="form-container">
+            <form>
+                <label for="imageLink">Image Link:</label>
+                <input type="text" id="imageLink" name="imageLink" placeholder="Enter image link here...">
+
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" placeholder="Enter title here...">
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author" placeholder="Enter author here...">
+
+
+            <div class="action">
+                <button type="submit" class="cta" onclick=" return savePost()">Save Post</button>
+                <button type="submit" class="cta" onclick=" return updatePost()">Edit Post</button>
+            </div>
+            </form>
+        </div>
+        <hr />
+        <h1>All Posts </h1>
+        <section id="posts">
+
+
+        </section>
+    </main>
+    <footer>
+        <div class="legal-links">
+            <a href="terms.html">terms and conditions</a>
+            <a href="privacy.html">privacy policy</a>
+            <a href="legal.html">legal mentions</a>
+        </div>
+    </footer>
+    <script src="shareYours.js"></script>
+</body>
+
+</html>
